@@ -1,0 +1,18 @@
+site_name: Iaso docs
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+    - search
+    - mermaid2
+    - awesome-pages:
+          collapse_single_pages: true
+use_directory_urls: false
+nav:
+    - Home: 
+      - index.md
+    - Entities:
+      - ./entities_in_iaso/entities_in_iaso.md
+    - User guide:
+      - ./user_guide/user_guide.md
+
