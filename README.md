@@ -9,8 +9,8 @@ The goal is to provide documentation that is easy to access for users, and (reas
 ### Targeted features
 Outside of readthedocs core features:
 
-[ ] Setup the project so that the structure (tree) of the documentation can be easily modified
-[ ] Provide a convenient way to convert existing documentation (mostly `.docx` files) to markdown
+- [ ] Setup the project so that the structure (tree) of the documentation can be easily modified
+- [ ] Provide a convenient way to convert existing documentation (mostly `.docx` files) to markdown
 
 ### How to test
 
