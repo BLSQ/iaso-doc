@@ -20,3 +20,12 @@ You need Python > 3.8.
 - cd to `/docs`
 - `pip install -r requirements.txt`
 - `mkdocks serve`
+
+### Convert a docx file to md
+
+- Install [pandocs](https://pandoc.org/installing.html)
+- Add the file you want to convert to `/docs/originals`
+- cd to `/docs`
+- Run `pandoc -s -f docx -t markdown_mmd --extract-media=. -o ./<filename>/<filename>.md ./originals/<original_filename>.docx`
+- The command creates a `/media` folder in `/docs`: move it to `/docs/<filename>`. Now you should have a folder: `/docs/<filename>/media`. This moving around is due to the way pandoc create the path to the files when converting and to the way mkdocs alters the paths when building
+- Add an entry in `mkdocs.yml`. Follow the current convention
