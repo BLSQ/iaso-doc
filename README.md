@@ -20,7 +20,6 @@ You need Python > 3.8.
 - cd to `/docs`
 - `pip install -r requirements.txt`
 - `mkdocks serve`
-![Screenshot 2022-06-28 at 10 50 11](https://user-images.githubusercontent.com/38907762/223693392-7a6b9f07-b4be-41ff-8ff6-45783ac41d52.png)
 
 ### Convert a docx file to md
 
