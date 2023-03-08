@@ -16,7 +16,8 @@ Outside of readthedocs core features:
 
 You need Python > 3.8.
 
-- clone the repo
+- clone the repo![Screenshot 2022-06-28 at 10 50 11](https://user-images.githubusercontent.com/38907762/223675723-9eeff30a-8965-42a5-a667-c07e49be1de2.png)
+
 - cd to `/docs`
 - `pip install -r requirements.txt`
 - `mkdocks serve`
